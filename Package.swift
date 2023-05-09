@@ -20,7 +20,7 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(name: "PassioNutritionAISDK",
-                      url: "https://github.com/Passiolife/Passio-Nutrition-AI-iOS-SDK-swiftpackage/blob/main/PassioNutritionAISDK.zip",
+                      url: "https://github.com/Passiolife/Passio-Nutrition-AI-iOS-SDK-swiftpackage/raw/main/PassioNutritionAISDK.zip",
                       checksum: "682414ceec1837539f7e0ef645057b653bd061bc65b5b03c35c1fe96d762f459")
     ]
 )
